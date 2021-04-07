@@ -40,7 +40,6 @@ public class CustomerController {
 	    return "index";
 	}
 	
-	
 	@GetMapping("/customer")
 	public String viewHomePage(Model model) {
 		
